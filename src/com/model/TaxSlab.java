@@ -7,7 +7,6 @@ public class TaxSlab {
     private Hashtable<String, Double> newSlabs = new Hashtable<String, Double>();
 
     public TaxSlab() {
-        // Simplified classroom examples, not official tax slabs.
         oldSlabs.put("0", 0.00);
         oldSlabs.put("250000", 0.05);
         oldSlabs.put("500000", 0.20);
